@@ -1,0 +1,188 @@
+/* Global Styles */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f9f9f9;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+    color: #212121;
+  }
+  
+  h1 {
+    font-size: 36px;
+  }
+  
+  h2 {
+    font-size: 24px;
+  }
+  
+  h3 {
+    font-size: 18px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #337ab7;
+  }
+  
+  a:hover {
+    color: #23527c;
+  }
+  
+  /* Header Styles */
+  
+  header {
+    background-color: lightcyan;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  header h1 {
+    margin-bottom: 10px;
+  }
+  
+  /* Main Styles */
+  
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  section {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  section h2 {
+    margin-top: 0;
+  }
+  
+  /* About Me Styles */
+  
+  #about {
+    text-align: center;
+  }
+  
+  #about p {
+    margin-bottom: 20px;
+  }
+  
+  /* Projects Styles */
+  
+  #projects ul {
+    padding: 0;
+    margin: 0;
+  }
+  
+  #projects li {
+    margin-bottom: 20px;
+  }
+  
+  #projects h3 {
+    margin-top: 0;
+  }
+  
+  #projects a {
+    margin-right: 10px;
+  }
+  
+  /* Skills Styles */
+  
+  #skills ul {
+    columns: 2;
+    -webkit-columns: 2;
+    -moz-columns: 2;
+  }
+  
+  #skills li {
+    margin-bottom: 10px;
+  }
+  
+  /* Personal Details Styles */
+  
+  #personal-details ul {
+    padding: 0;
+    margin: 0;
+  }
+  
+  #personal-details li {
+    margin-bottom: 10px;
+  }
+  
+  #personal-details strong {
+    font-weight: bold;
+  }
+  
+  /* Experience Styles */
+  
+  #experience p {
+    margin-bottom: 20px;
+  }
+  
+  /* Language Styles */
+  
+  #language ul {
+    padding: 0;
+    margin: 0;
+  }
+  
+  #language li {
+    margin-bottom: 10px;
+  }
+  
+  /* Education Styles */
+  
+  #education ul {
+    padding: 0;
+    margin: 0;
+  }
+  
+  #education li {
+    margin-bottom: 10px;
+  }
+  
+  /* Get in Touch Styles */
+  
+  #get-in-touch ul {
+    padding: 0;
+    margin: 0;
+  }
+  
+  #get-in-touch li {
+    margin-bottom: 10px;
+  }
+  
+  /* Footer Styles */
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    clear: both;
+  }

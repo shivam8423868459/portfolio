@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>myportfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <img src="shivalogo.jpg" alt="">
+    <ul class="tabs">
+        <li> <a href="#" onclick="showForm('home')">HOME</a></li>
+        <li> <a href="#" onclick="showForm('project')">PROJECTS</a></li>
+        <li> <a href="portfolio.html">PORTFOLIO</a></li>
+        <li>  <a href="">PROJECTS</a></li>
+    </ul>
+</header>
+<form id="project" style="display: none;">
+    <section id="projects">
+        <h2>Projects</h2>
+        <ul>
+            <li>
+                <h3>Online Job Search Website</h3>
+                <p>A web application built using HTML5, JavaScript, CSS, and PHP (backend)</p>
+                <ul>
+                    <li>Features: User registration, job posting, search, and filtering</li>
+                    <li>Technologies used: HTML5, CSS, JavaScript, PHP, MySQL</li>
+                </ul>
+                <a href="#" target="_blank">Live Demo</a> | <a href="#" target="_blank">GitHub Repository</a>
+            </li>
+        </ul>
+    </section>
+    
+</form>
+
+<form id="home" style="display: none;">
+<h2>I,m Shivam Yadav</h2>
+<p> This is my official portfolio website to showes all Details </p>
+<p>  and work experience in web development </p>
+<a id="a1" href="SHIVAMdeveloperCV.pdf">Download CV</a>
+</form>
+
+<script>
+     document.addEventListener("DOMContentLoaded", function() {
+        showForm('home');
+    });
+
+    function showForm(formId) {
+        // Hide all forms
+        document.querySelectorAll('form').forEach(form => {
+            form.style.display = 'none';
+        });
+
+        // Show the selected form
+        document.getElementById(formId).style.display = 'block';
+    }
+</script>
+
+</body>
+</html>
